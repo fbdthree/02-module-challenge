@@ -1,0 +1,123 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+  --primary: rgba(220, 200, 216, 1);
+  --complimentary: rgba(220, 214, 200, 1);
+  --triadic-2: rgba(219, 234, 222, 1);
+  --triadic-3: rgba(203, 155, 137, 1);
+  --tetradic-2: rgba(147, 8, 38, 1);
+  --tetradic-3: rgba(17, 122, 101, 1);
+  --tetradic-4: rgba(200, 206, 220, 1);
+  --font-color: rgba(55, 54, 50, 1);
+
+
+}
+
+header {
+  font-weight: bold;
+  font-size: 25px;
+  background-color: var(--primary);
+  border: solid 40px var(--complimentary);
+  padding: 0px;
+  border: solid 3px var(--font-color);
+  text-align: center;
+  }
+
+h1 {
+    color: var(--font-color);
+  }
+
+.flex-container {
+    display: flex;
+    border: solid 0px var(--font-color);
+    
+  }
+
+.box-menu-1 {
+  width: 25%;
+  height: 20px;
+  padding: 10px;
+  background-color: var(--tetradic-2);
+  border: solid 3px var(--font-color);
+  text-align: center;
+}
+
+.box-menu-2 {
+  width: 25%;
+  height: 20px;
+  padding: 10px;
+  background-color: var(--tetradic-4);
+  border: solid 3px var(--font-color);
+  text-align: center;
+}
+
+.box-menu-3 {
+  width: 25%;
+  height: 20px;
+  padding: 10px;
+  background-color: var(--triadic-2);
+  border: solid 3px var(--font-color);
+  text-align: center;
+}
+
+.box-menu-4 {
+  width: 25%;
+  height: 20px;
+  padding: 10px;
+  background-color: var(--triadic-3);
+  border: solid 3px var(--font-color);
+  text-align: center;
+}
+
+#img-container {
+  display: flex;
+  border: solid 2px var(--font-color);
+  background-color: var(--complimentary);
+  padding: 20px;
+  justify-content: center;
+}
+img {
+  width: 60%;
+  height: 350px;
+}
+
+.card {
+    border: solid 2px var(--font-color);
+    width: 50%;
+    height: 300px;
+    }
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-indent: 50px;
+}
+
+#card-about {
+  background-color: var(--triadic-3);
+}
+.portfolio-box {
+  width: 50%;
+}
+
+.aboutText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--triadic-3);
+  font-size: 13px;
+}
+
+
+.footerCon {
+  display: inline-flex;
+  position: relative;
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+

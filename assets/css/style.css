@@ -23,10 +23,7 @@ header {
   padding: 0px;
   border: solid 3px var(--font-color);
   text-align: center;
-  }
-
-h1 {
-    color: var(--font-color);
+  color: var(--font-color);
   }
 
 .flex-container {
@@ -114,10 +111,18 @@ p {
 
 
 .footerCon {
-  display: inline-flex;
+  display: flex;
   position: relative;
   font-size: 10px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 50%;
 }
 

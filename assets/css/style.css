@@ -97,6 +97,10 @@ p {
 #card-about {
   background-color: var(--triadic-3);
 }
+
+#card-portfolio {
+  background-color: var(--primary);
+}
 .portfolio-box {
   width: 50%;
 }
@@ -116,6 +120,8 @@ p {
   font-size: 10px;
   align-items: center;
   justify-content: space-around;
+  border: solid 2px var(--font-color);
+  background-color: var(--primary);
 }
 
 ul {
